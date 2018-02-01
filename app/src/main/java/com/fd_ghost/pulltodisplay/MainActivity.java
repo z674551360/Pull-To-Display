@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
                     current = (current > botposition) ? botposition : current;
                     current = (current < 0) ? 0 : current;
                     setMargins(listView, 0, (int) current, 0, 0);
-                    imageView.setAlpha((float) (current / botposition));
+                    imageView.setAlpha((float) (current / botposition)); 
                 }
                 break;
         }
